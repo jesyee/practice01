@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <form>
+     text : <input type="text">  
+     <!--아무 글자 삽입하는 input-->
+     <br>
+      passWord : <input type="password">  
+      <!--가려서 나오는 input -->
+     <br>
+     email :  <input type="email" required> <!--@가 있어야 하는것-->
+     <!-- 이메일 사용하는 인풋, 는 type -->
+    <br>
+    tel : <input type="tel" required>
+     <br>
+    <input type="submit" value = "버튼"> <!-- 올바른 값  오류설정-->
+        <br><br>
+
+        <input type="radio" name="1"> <!--이름 꼭 넣기-->
+        <input type="radio" name="1"> <!-- radio 하나만 선택 --> 
+
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <input type="checkbox" name=""> <!-- 중복 선택 가능 -->
+        <!-- 상관없이 중복 선책할수 있는 요소 -->
+
+        <fieldset style="width: 100px; height: 50px; background: rgb(240, 138, 213);">
+             <!-- 흰색 겉 라인, 꾸미기 용-->
+            <legend>제목</legend> <!--fieldset 와 같이 사용, 겉 라인 이름-->
+            <br>
+            <input type="text">
+            <br>
+        </fieldset>
+
+        <input type="time"> <!--시간-->
+        <!-- 시간을 선택할 수 있도록 하는 요소 -->
+        <input type="detetime-loacal"> <!--날짜 달력-->
+        <!-- 시간과 날짜를 선택할수 있도록 하는 요소 -->
+
+        <select> <!--옵션 갯수만큼의 창,  보기-->
+            <option value="1">a</option>
+            <option value="1">b</option>
+            <option value="1">c</option>
+            <option value="1">d</option>
+        </select>
+        <!-- option의 갯수만큼 선택창을 만드는 요소 -->
+        
+        <label for="">text</label> <!-- 이름 구별 -->
+        <!-- 인풋앞에 글씨를 감싸는 요소, label이 있으면 input을 선택하지 않고 label을 선택해도 인식함 -->
+
+        <textarea cols="30" rows="10"> </textarea> <!--소감문, 후기--> <!--30자의 10줄-->
+        <!-- 많은 글씨를 적을 수 있는 요소 -->
+     </form>
+     <!-- form으로 input을 감싸줘야 데이터가 전송이 됨 -->
+ </body>
+ </html>

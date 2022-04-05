@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <label for="name">고객명 : </label>
+      <input type="text" name="name" id="name">
+        <br>
+    <label for="phone">전화번호:</label>
+    <input type="text"name="phone" id="phone">
+    <br>
+    <label for="E-mail">E-mail : </label>
+    <input type="text" name="E-mail" id="E-mail">
+    <br>
+ 피자선택 :
+    <select>
+   <option value="1">피자를 선택하세요</option>
+     <option value="1">치즈 퐁듀 파이어</option>
+     <option value="1">블록버스터4</option>
+     <option value="1">글로벌 레전드4</option>
+     <option value="1">베스트 콰드로</option>
+
+    </select>
+
+    <fieldset>
+        <legend>피자 사이즈</legend>
+        <input type="radio" name="size" value="S">Small <br><br>
+        <input type="radio" name="size" value="M">Medium<br><br>
+        <input type="radio" name="size" value="L">Medium<br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>토핑선택</legend>
+        <input type="checkbox" name="topping" value="bacon"> 베이컨 <br><br>
+        <input type="checkbox" name="topping" value="cheese"> 치즈 <br><br>
+        <input type="checkbox" name="topping" value="onion"> 양파 <br><br>
+        <input type="checkbox" name="topping" value="mushroom">버섯 <br><br>
+    </fieldset>
+
+    <label for="time">희망배송시간 : </label>
+    <input type="time" name="time" id="time">
+    <br><br>
+
+    <label for="request">배송시 요청사항 : </label>
+    <textarea name="request" id="request" rows="4" cols="20"></textarea>
+    <br><br>
+
+    <button>주문하기</button>
+    </form>
+   
+</body>
+</html>
