@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>납품자 정보</legend>
+
+        <label for="name">1.납품자명 : </label>
+        <input type="text" name="name" id="name"> <br>
+        
+        <label for="name">2.email : </label> 
+        <input  name="num" id="num" placeholder="anser@naver.com"> <br>
+        <label for="name">3.홈페이지 : </label>
+        <input value="https://"> <br>
+
+        <label for="name">3.지역 : </label>
+    <select name="region" id="region">  
+        <option value="seou1">서울</option>
+        <option value="Daejeon">대전</option> 
+        <option value="Daegu">대구</option>
+        <option value="Busan" selected>부산</option>
+    </select>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>납품 정보</legend>
+        <label for="name">1.상품명 : </label>
+        <input type="text" name="name" id="name"> <br>
+
+        <label for="num">2.납품수량 : </label>
+        <input value="https://" type="number" name="num" id="num"placeholder="최소 100" ><br>
+
+        <label for="bar">3.상품등급 : </label>
+        <input type="range" name ="bar" id="bar" max="10" min="0" step="2"> <br>
+
+        <label for="request"> 4.기타사항 : </label>
+    <textarea name="request" id="request" rows="4" cols="20"></textarea>
+
+    </fieldset>
+
+
+</form>
+</body>
+</html>
